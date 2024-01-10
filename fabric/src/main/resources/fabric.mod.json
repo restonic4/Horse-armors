@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "horse_armors",
+  "version": "${version}",
+
+  "name": "Horse armors",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20"
+  }
+}
