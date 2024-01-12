@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_item"
+    ]
+  ],
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:amethyst_shard"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "horse_armors:amethyst_horse_armor"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "horse_armors:amethyst_horse_armor"
+    ]
+  }
+}

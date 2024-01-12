@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " SI",
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot",
+      "data": 0
+    },
+    "S": {
+      "item": "minecraft:string",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "horse_armors:copper_horse_armor",
+    "count": 1
+  }
+}

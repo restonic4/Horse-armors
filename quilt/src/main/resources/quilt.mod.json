@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "horse_armors",
+    "version": "${version}",
+    "metadata": {
+      "name": "Horse armors",
+      "description": "",
+      "contributors": {},
+      "contact": {},
+      "icon": "icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "me.restonic4.horsearmors.quilt.HorseArmorsQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": ">=0.18.10"
+      },
+      {
+        "id": "quilted_fabric_api",
+        "versions": ">=4.0.0"
+      },
+      {
+        "id": "minecraft",
+        "versions": "=1.19.3"
+      },
+      {
+        "id": "architectury",
+        "version": ">=7.1.86"
+      },
+      {
+        "id": "restapi",
+        "version": "=0.9-1.19.3-Quilt"
+      }
+    ]
+  }
+}
